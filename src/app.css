@@ -1,0 +1,420 @@
+/* ==========================================================================
+   KIGA DESIGN SYSTEM — PLAYFUL YET PROFESSIONAL EDITORIAL
+   - Breathable warm paper canvas (#FAF9F5) with subtle technical dot grid
+   - Rich contrast pop colors (Cobalt Blue, Sunshine Yellow, Hot Poppy, Emerald)
+   - Dossier folder tabs with chamfered angled notches
+   - Washi masking tape pinned mockups & photos
+   - Circular portraits with orbiting satellite social pills
+   - Massive playful lowercase headlines & crisp typography
+   ========================================================================== */
+
+:root {
+	/* Canvas & Surfaces */
+	--bg-outer-frame: #E8EBE3;
+	--bg-canvas: #FAF9F5;
+	--bg-surface: #FFFFFF;
+	--bg-surface-elevated: #F3F2EC;
+	--bg-surface-subtle: #EEEEE8;
+	--bg-dark-card: #141619;
+
+	/* High-Energy Pop Accents */
+	--pop-blue: #2563EB;
+	--pop-blue-hover: #1D4ED8;
+	--pop-yellow: #F5C22B;
+	--pop-yellow-hover: #EAB308;
+	--pop-coral: #FF4724;
+	--pop-lime: #10B981;
+	--pop-neon-lime: #D8F55C;
+	--pop-pink: #EC4899;
+	--pop-dark: #121316;
+
+	/* Legacy mapping for backward compatibility */
+	--accent-lime: #10B981;
+	--accent-lime-hover: #059669;
+	--accent-lime-glow: rgba(16, 185, 129, 0.25);
+	--accent-lime-subtle: rgba(16, 185, 129, 0.1);
+
+	/* Typography colors */
+	--text-primary: #121417;
+	--text-secondary: #484E46;
+	--text-muted: #7A8177;
+	--text-light-muted: #9BA297;
+	--text-white: #FFFFFF;
+
+	/* Borders */
+	--border-light: rgba(0, 0, 0, 0.08);
+	--border-medium: rgba(0, 0, 0, 0.14);
+	--border-bold: rgba(0, 0, 0, 0.85);
+	--border-white-subtle: rgba(255, 255, 255, 0.15);
+
+	/* Shadows */
+	--shadow-subtle: 0 4px 16px rgba(0, 0, 0, 0.04);
+	--shadow-card: 0 10px 30px rgba(0, 0, 0, 0.06);
+	--shadow-pop: 4px 4px 0px #121417;
+	--shadow-pop-sm: 2px 2px 0px #121417;
+
+	/* Fonts */
+	--font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+	--font-serif-italic: 'Times New Roman', Times, Georgia, serif;
+	--font-handwritten: 'Caveat', cursive, sans-serif;
+
+	/* Frame padding */
+	--frame-width: 18px;
+	--container-max: 1360px;
+
+	--radius-sm: 6px;
+	--radius-md: 12px;
+	--radius-lg: 20px;
+	--radius-xl: 28px;
+	--radius-pill: 9999px;
+
+	--transition-fast: 0.16s ease-out;
+	--transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (max-width: 900px) {
+	:root {
+		--frame-width: 12px;
+	}
+}
+
+@media (max-width: 600px) {
+	:root {
+		--frame-width: 6px;
+	}
+}
+
+/* Reset */
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: var(--font-main);
+	background-color: var(--bg-outer-frame);
+	color: var(--text-primary);
+	scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	min-height: 100vh;
+	background-color: var(--bg-outer-frame);
+	color: var(--text-primary);
+	line-height: 1.6;
+	padding: var(--frame-width);
+	overflow-x: hidden;
+}
+
+/* The Inset Architectural Canvas */
+.site-frame {
+	width: 100%;
+	min-height: calc(100vh - (var(--frame-width) * 2));
+	background-color: var(--bg-canvas);
+	background-image: radial-gradient(rgba(0, 0, 0, 0.07) 1px, transparent 1px);
+	background-size: 28px 28px;
+	border-radius: var(--radius-xl);
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 12px 48px rgba(0, 0, 0, 0.08);
+	border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 600px) {
+	.site-frame {
+		border-radius: var(--radius-md);
+	}
+}
+
+/* Container */
+.site-container {
+	width: 100%;
+	max-width: var(--container-max);
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+@media (max-width: 768px) {
+	.site-container {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+}
+
+:focus-visible {
+	outline: 2px solid var(--pop-blue);
+	outline-offset: 3px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	transition: color var(--transition-fast);
+}
+
+img, svg {
+	display: block;
+	max-width: 100%;
+}
+
+button, input, textarea, select {
+	font: inherit;
+	color: inherit;
+}
+
+/* Giant Lowercase Display Headline */
+.hero-giant-text {
+	font-family: var(--font-main);
+	font-size: clamp(4.5rem, 16vw, 13rem);
+	font-weight: 800;
+	letter-spacing: -0.06em;
+	line-height: 0.88;
+	color: var(--text-primary);
+	text-transform: lowercase;
+	text-align: center;
+	margin: 0;
+	position: relative;
+	z-index: 2;
+	user-select: none;
+}
+
+/* Manifesto Statements */
+.manifesto-statement {
+	font-family: var(--font-main);
+	font-size: clamp(1.4rem, 2.7vw, 2.3rem);
+	font-weight: 800;
+	letter-spacing: -0.03em;
+	line-height: 1.3;
+	color: var(--text-primary);
+	text-align: center;
+	max-width: 860px;
+	margin: 0 auto;
+}
+
+.manifesto-body {
+	font-size: clamp(0.95rem, 1.4vw, 1.05rem);
+	line-height: 1.7;
+	color: var(--text-secondary);
+	text-align: center;
+	max-width: 660px;
+	margin: 20px auto 0;
+}
+
+/* Breadcrumbs with Pop Color Accent */
+.page-breadcrumb {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 0.875rem;
+	font-weight: 600;
+	color: var(--text-muted);
+	margin-bottom: 24px;
+}
+
+.breadcrumb-active {
+	color: var(--pop-blue);
+	font-style: italic;
+	font-family: var(--font-serif-italic);
+	font-size: 1.05rem;
+}
+
+/* Section Header Shared Styles */
+.section-header-block {
+	margin-bottom: 44px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.badge-crumb {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 0.8125rem;
+	font-weight: 600;
+	color: var(--text-muted);
+	text-transform: lowercase;
+	letter-spacing: 0.04em;
+}
+
+.badge-crumb .active-part {
+	color: var(--pop-blue);
+	font-style: italic;
+	font-family: var(--font-serif-italic);
+	font-size: 0.95rem;
+}
+
+.text-section-title {
+	font-family: var(--font-main);
+	font-size: clamp(2.2rem, 4.5vw, 3.4rem);
+	font-weight: 800;
+	letter-spacing: -0.04em;
+	color: var(--text-primary);
+	text-transform: lowercase;
+	line-height: 1.05;
+}
+
+.text-body-sub {
+	font-size: 1.05rem;
+	line-height: 1.6;
+	color: var(--text-secondary);
+	max-width: 640px;
+}
+
+/* Location Badge with connector line */
+.location-connector-wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 36px 0 28px;
+	position: relative;
+}
+
+.plus-box {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 22px;
+	height: 22px;
+	border: 1.5px solid var(--text-primary);
+	border-radius: 5px;
+	font-size: 0.8125rem;
+	font-weight: 800;
+	color: var(--text-primary);
+	background: #FFFFFF;
+	box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+	margin-bottom: 8px;
+}
+
+.location-text {
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	color: var(--text-muted);
+	font-weight: 700;
+	text-align: center;
+}
+
+.vertical-connector-line {
+	width: 1.5px;
+	height: 48px;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.05) 100%);
+	margin-top: 14px;
+}
+
+/* Buttons with tactile neo-editorial pop */
+.btn-pill {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	padding: 10px 24px;
+	border-radius: var(--radius-pill);
+	font-size: 0.875rem;
+	font-weight: 700;
+	letter-spacing: -0.01em;
+	border: 1.5px solid var(--text-primary);
+	background: #FFFFFF;
+	color: var(--text-primary);
+	cursor: pointer;
+	box-shadow: var(--shadow-pop-sm);
+	transition: all var(--transition-fast);
+}
+
+.btn-pill:hover {
+	transform: translate(-1px, -1px);
+	box-shadow: var(--shadow-pop);
+	background: #FFFFFF;
+}
+
+.btn-pill:active {
+	transform: translate(1px, 1px);
+	box-shadow: none;
+}
+
+.btn-dark {
+	background: var(--pop-dark);
+	color: #FFFFFF;
+	border-color: var(--pop-dark);
+}
+
+.btn-dark:hover {
+	background: #23272D;
+	color: #FFFFFF;
+}
+
+.btn-blue {
+	background: var(--pop-blue);
+	color: #FFFFFF;
+	border-color: var(--text-primary);
+}
+
+.btn-blue:hover {
+	background: var(--pop-blue-hover);
+	color: #FFFFFF;
+}
+
+.btn-yellow {
+	background: var(--pop-yellow);
+	color: var(--text-primary);
+	border-color: var(--text-primary);
+}
+
+.btn-yellow:hover {
+	background: var(--pop-yellow-hover);
+}
+
+/* Washi Tape Strips (Physical Paper / Editorial Effect from Image 1) */
+.washi-tape {
+	position: absolute;
+	width: 68px;
+	height: 22px;
+	background: rgba(255, 255, 255, 0.88);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border: 1px dashed rgba(0, 0, 0, 0.12);
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+	z-index: 10;
+	pointer-events: none;
+}
+
+.washi-tape.top-left {
+	top: -9px;
+	left: 18px;
+	transform: rotate(-6deg);
+}
+
+.washi-tape.top-right {
+	top: -9px;
+	right: 18px;
+	transform: rotate(5deg);
+}
+
+.washi-tape.bottom-left {
+	bottom: -9px;
+	left: 18px;
+	transform: rotate(4deg);
+}
+
+.washi-tape.bottom-right {
+	bottom: -9px;
+	right: 18px;
+	transform: rotate(-5deg);
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+	*, *::before, *::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
