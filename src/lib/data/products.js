@@ -16,7 +16,7 @@ export const products = [
 		tabLabel: 'PROJECT #1',
 		date: 'MAR 2026',
 		theme: 'dark', // Charcoal folder card
-		url: 'https://github.com/helodreamcumtrue/artiapply',
+		url: 'https://articlo.online',
 		previewImage: '/images/articlo-preview.jpg',
 		description:
 			'An AI-powered job application and cold outreach platform built to eliminate job hunting fatigue. Reach out to hundreds of HRs in a single click via native Gmail API, beat screening filters with ATS-friendly resume templates, and access verified recruiter mail IDs with 99%+ deliverability.',
@@ -37,13 +37,13 @@ export const products = [
 		name: 'Ntocks',
 		tagline: 'Real-time financial intelligence & news-to-company causal impact platform for Indian equities (NSE & BSE).',
 		category: 'Quantitative Financial Intelligence',
-		status: 'Launched',
-		badge: 'Active Product',
+		status: 'Coming Soon',
+		badge: 'Coming Soon',
 		projectNumber: '02',
 		tabLabel: 'PROJECT #2',
-		date: 'FEB 2026',
+		date: 'COMING SOON',
 		theme: 'yellow', // Vibrant sunshine yellow folder card
-		url: 'https://github.com/helodreamcumtrue/sttockk',
+		url: '',
 		previewImage: '/images/ntocks-preview.jpg',
 		description:
 			'An institutional-grade quantitative research platform for Indian equities. Transforms macroeconomic events, regulatory filings, and corporate disclosures into structured, evidence-backed market intelligence—with zero hallucinated predictions.',

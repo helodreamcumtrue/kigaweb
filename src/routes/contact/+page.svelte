@@ -38,12 +38,7 @@
 					</div>
 
 					<div class="channels-list">
-						<div class="channel-row">
-							<span class="ch-label">email</span>
-							<a href="mailto:{siteConfig.contactEmail}" class="ch-val-lime">
-								{siteConfig.contactEmail}
-							</a>
-						</div>
+
 
 						<div class="channel-row">
 							<span class="ch-label">office</span>
@@ -189,17 +184,7 @@
 		color: var(--text-primary);
 	}
 
-	.ch-val-lime {
-		font-size: 1.1rem;
-		font-weight: 800;
-		color: var(--pop-blue);
-		text-decoration: underline;
-		text-underline-offset: 4px;
-	}
 
-	.ch-val-lime:hover {
-		color: var(--pop-blue-hover);
-	}
 
 	.ch-sub {
 		font-size: 0.875rem;

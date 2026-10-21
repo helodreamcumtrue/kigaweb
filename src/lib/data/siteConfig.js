@@ -9,7 +9,7 @@ export const siteConfig = {
 	description:
 		'Kiga brings together focused digital products, each built to solve a particular problem for a particular audience.',
 	url: 'https://kiga.io', // To be updated once production domain is confirmed
-	contactEmail: 'hello@kiga.io', // Configurable business email placeholder
+	contactEmail: '', // Removed per specification
 	location: 'India & Remote Worldwide',
 	officeAddress: {
 		street: 'Kiga Digital Labs',

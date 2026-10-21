@@ -29,7 +29,7 @@
 								● FINANCIAL INTELLIGENCE
 							{/if}
 						</span>
-						<span class="version-label">{product.name} v{idx === 0 ? '2.0' : '1.0'}</span>
+						<span class="version-label">{product.id === 'articlo' ? 'Articlo v2.0' : 'Ntocks • Coming Soon'}</span>
 					</div>
 
 					<div class="topbar-right">
@@ -84,16 +84,16 @@
 						<div class="product-actions-row">
 							{#if product.url}
 								<a href={product.url} target="_blank" rel="noopener noreferrer" class="btn-product-primary">
-									<span>Explore {product.name} Repo</span>
+									<span>Launch {product.name}</span>
 									<span class="btn-arrow-icon">↗</span>
 								</a>
 							{:else}
 								<div class="launching-status-wrap">
 									<span class="btn-product-primary disabled">
-										<span>Launch {product.name}</span>
-										<span class="btn-arrow-icon">↗</span>
+										<span>Coming Soon</span>
+										<span class="btn-arrow-icon">⏳</span>
 									</span>
-									<span class="status-micro-badge">Active Production</span>
+									<span class="status-micro-badge">In Development</span>
 								</div>
 							{/if}
 
@@ -119,7 +119,7 @@
 										<rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
 										<path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
 									</svg>
-									<span>kiga.io/{product.id}</span>
+									<span>{product.id === 'articlo' ? 'articlo.online' : 'ntocks.kiga.io'}</span>
 								</div>
 								<div class="header-empty-spacer"></div>
 							</div>
@@ -137,7 +137,7 @@
 									{#if product.id === 'articlo'}
 										<span>Gmail API • 99.2% Deliverability • Active HR DB</span>
 									{:else}
-										<span>NSE &amp; BSE Live Feeds • 5-Stage Causal Engine</span>
+										<span>NSE &amp; BSE Live Feeds • Causal Engine • Coming Soon</span>
 									{/if}
 								</div>
 							</div>

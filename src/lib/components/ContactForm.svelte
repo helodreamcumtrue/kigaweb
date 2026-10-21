@@ -153,7 +153,7 @@
 						type="email"
 						class="text-input"
 						class:has-err={errors.email}
-						placeholder="arnav@example.com"
+						placeholder="your@email.com"
 						bind:value={formData.email}
 						disabled={isSubmitting}
 						aria-required="true"

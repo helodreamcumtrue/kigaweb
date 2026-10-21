@@ -1,5 +1,5 @@
 <script>
-	import { siteConfig } from '#lib/data/siteConfig.js';
+
 	import { teamMembers } from '#lib/data/team.js';
 	import { products } from '#lib/data/products.js';
 
@@ -17,11 +17,7 @@
 				<p class="brand-desc">
 					A digital product collective building focused software, dedicated tools, and purposeful utilities.
 				</p>
-				<div class="brand-meta-pills">
-					<span class="meta-pill">product collective</span>
-					<span class="meta-pill">autonomous</span>
-					<span class="meta-pill">zero bloat</span>
-				</div>
+
 			</div>
 
 			<!-- Col 2: Navigation (Lowercase) -->
@@ -65,10 +61,7 @@
 						<a href="/about#team" class="member-credit">{member.name}</a>{i < teamMembers.length - 1 ? ' & ' : ''}
 					{/each}.
 				</p>
-				<div class="footer-contact-pill">
-					<span class="contact-label">direct channel</span>
-					<a href="/contact" class="contact-email-link">{siteConfig.contactEmail}</a>
-				</div>
+
 			</div>
 		</div>
 
@@ -154,23 +147,7 @@
 		margin-bottom: 18px;
 	}
 
-	.brand-meta-pills {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 8px;
-	}
 
-	.meta-pill {
-		font-size: 0.6875rem;
-		text-transform: lowercase;
-		letter-spacing: 0.04em;
-		padding: 3px 10px;
-		border-radius: var(--radius-pill);
-		background: #FFFFFF;
-		border: 1px solid var(--border-light);
-		color: var(--text-secondary);
-		font-weight: 600;
-	}
 
 	.footer-col-title {
 		font-size: 0.75rem;
@@ -238,34 +215,7 @@
 		color: var(--pop-blue);
 	}
 
-	.footer-contact-pill {
-		padding: 14px 18px;
-		background: #FFFFFF;
-		border: 1.5px solid var(--border-light);
-		border-radius: var(--radius-md);
-		display: flex;
-		flex-direction: column;
-		gap: 4px;
-		box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.04);
-	}
 
-	.contact-label {
-		font-size: 0.6875rem;
-		text-transform: lowercase;
-		letter-spacing: 0.06em;
-		color: var(--text-muted);
-		font-weight: 600;
-	}
-
-	.contact-email-link {
-		font-size: 0.875rem;
-		color: var(--text-primary);
-		font-weight: 700;
-	}
-
-	.contact-email-link:hover {
-		color: var(--pop-blue);
-	}
 
 	.footer-bottom-bar {
 		display: flex;

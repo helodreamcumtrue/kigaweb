@@ -1,8 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
-  <rect width="48" height="48" rx="24" fill="#141414"/>
-  <!-- Geometric Kiga emblem: dual converging facets -->
-  <path d="M14 15C14 13.8954 14.8954 13 16 13H21C22.1046 13 23 13.8954 23 15V22C23 22.5523 22.5523 23 22 23H15C14.4477 23 14 22.5523 14 22V15Z" fill="#FF4724"/>
-  <path d="M25 25C25 24.4477 25.4477 24 26 24H33C33.5523 24 34 24.4477 34 25V32C34 33.1046 33.1046 34 32 34H27C25.8954 34 25 33.1046 25 32V25Z" fill="#FF4724"/>
-  <circle cx="30" cy="17" r="4" fill="#FFFFFF"/>
-  <circle cx="18" cy="31" r="4" fill="#FFFFFF" fill-opacity="0.8"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="kiga-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16181D"/>
+      <stop offset="100%" stop-color="#0E1013"/>
+    </linearGradient>
+  </defs>
+  <!-- Squircle Base -->
+  <rect width="64" height="64" rx="18" fill="url(#kiga-bg)"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="16.5" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1.5"/>
+
+  <!-- Bold Lowercase "k" -->
+  <rect x="15" y="14" width="8" height="36" rx="3.5" fill="#FFFFFF"/>
+  <path d="M22 32.5 L36 18.5" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M25.5 30 L37.5 46" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round"/>
+
+  <!-- Signature Kiga Asterisk (*) in Electric Cobalt Blue with Gold Core -->
+  <g stroke="#2563EB" stroke-width="3" stroke-linecap="round">
+    <line x1="48" y1="12" x2="48" y2="26"/>
+    <line x1="41" y1="19" x2="55" y2="19"/>
+    <line x1="43.05" y1="14.05" x2="52.95" y2="23.95"/>
+    <line x1="52.95" y1="14.05" x2="43.05" y2="23.95"/>
+  </g>
+  <circle cx="48" cy="19" r="2.2" fill="#F5C22B"/>
 </svg>
