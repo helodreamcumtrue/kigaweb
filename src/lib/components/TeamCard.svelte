@@ -44,6 +44,7 @@
 								src={member.image}
 								alt="{member.name} - {member.role}"
 								class="portrait-photo-cutout"
+								style:object-position={member.imagePosition || 'center'}
 								loading="lazy"
 							/>
 						</div>

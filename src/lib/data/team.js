@@ -7,33 +7,34 @@ export const teamMembers = [
 	{
 		id: 'arnav-nahata',
 		name: 'Arnav Nahata',
-		role: 'LEAD DESIGNER & CO-FOUNDER',
+		role: 'CO-FOUNDER • MARKETING, OUTREACH & OPERATIONS',
 		initials: 'AN',
 		image: '/images/arnav-portrait.jpg',
+		imagePosition: 'center 20%',
 		avatarBg: '#181B20',
-		bio: 'Arnav heads up our design and product output, transforming ambiguous user problems into razor-sharp digital utilities. A pixel perfectionist, interface craftsman, and ideas guy, he is obsessed with high-speed simplicity. When not obsessing over typography and interaction curves, Arnav can be found gravel cycling or hunting down exceptional espresso.',
-		quote: 'We believe digital software should do one job with unmatched clarity rather than try to do twenty jobs poorly.',
+		bio: 'Arnav drives marketing, user outreach, and operational execution across the Kiga ecosystem. With a background in Chartered Accountancy (CA Intermediate), he pairs financial acumen and analytical discipline with relentless user empathy. Arnav heads up our hands-on testing, customer feedback loops, and distribution—ensuring every utility we build solves acute, real-world friction.',
+		quote: 'Software is only as good as the friction it removes in the real world. We obsess over user feedback loops, distribution, and disciplined execution.',
 		socials: [
 			{ name: 'Twitter', icon: 'twitter', url: 'https://twitter.com', bg: '#1DA1F2', color: '#FFFFFF', pos: 'top-left' },
-			{ name: 'Dribbble', icon: 'dribbble', url: 'https://dribbble.com', bg: '#EA4C89', color: '#FFFFFF', pos: 'top-right' },
-			{ name: 'LinkedIn', icon: 'linkedin', url: 'https://linkedin.com', bg: '#0A66C2', color: '#FFFFFF', pos: 'bottom-right' },
+			{ name: 'LinkedIn', icon: 'linkedin', url: 'https://linkedin.com', bg: '#0A66C2', color: '#FFFFFF', pos: 'top-right' },
 			{ name: 'GitHub', icon: 'github', url: 'https://github.com', bg: '#24292F', color: '#FFFFFF', pos: 'bottom-left' }
 		]
 	},
 	{
 		id: 'lakshay-jain',
 		name: 'Lakshay Jain',
-		role: 'LEAD ARCHITECT & CO-FOUNDER',
+		role: 'CO-FOUNDER • PRODUCT, DESIGN & TECH LEAD',
 		initials: 'LJ',
 		image: '/images/lakshay-portrait.jpg',
+		imagePosition: '53% 55%',
 		avatarBg: '#181B20',
-		bio: 'Lakshay architects the high-performance engines and distributed backend infrastructure across the Kiga ecosystem. A meticulous systems engineer who is all about the details, sub-50ms latency, and rock-solid reliability. When he isn’t shipping clean pipelines, Lakshay enjoys competitive gaming, mechanical keyboards, and contributing to open-source.',
-		quote: 'A great product isn’t measured by how many features it packs, but by how reliably it solves the specific problem it was built for.',
+		bio: 'Lakshay is the product management, design, and technical engine behind Kiga. He directs end-to-end product strategy, defines our design language and brand guidelines, and architects the high-performance full-stack engineering infrastructure. A builder obsessed with sub-50ms velocity and interaction craft, Lakshay transforms complex bottlenecks into elegant, zero-bloat software.',
+		quote: 'Great digital software lives at the intersection of clear product thinking, uncompromising design craft, and lightning-fast engineering.',
 		socials: [
-			{ name: 'Steam', icon: 'steam', url: 'https://steamcommunity.com', bg: '#171A21', color: '#FFFFFF', pos: 'top' },
-			{ name: 'GitHub', icon: 'github', url: 'https://github.com', bg: '#24292F', color: '#FFFFFF', pos: 'top-left' },
+			{ name: 'GitHub', icon: 'github', url: 'https://github.com/helodreamcumtrue', bg: '#24292F', color: '#FFFFFF', pos: 'top-left' },
 			{ name: 'LinkedIn', icon: 'linkedin', url: 'https://linkedin.com', bg: '#0A66C2', color: '#FFFFFF', pos: 'top-right' },
-			{ name: 'Twitter', icon: 'twitter', url: 'https://twitter.com', bg: '#1DA1F2', color: '#FFFFFF', pos: 'bottom-right' }
+			{ name: 'Twitter', icon: 'twitter', url: 'https://twitter.com', bg: '#1DA1F2', color: '#FFFFFF', pos: 'bottom-right' },
+			{ name: 'Steam', icon: 'steam', url: 'https://steamcommunity.com', bg: '#171A21', color: '#FFFFFF', pos: 'top' }
 		]
 	}
 ];

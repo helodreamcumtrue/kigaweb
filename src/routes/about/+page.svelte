@@ -69,45 +69,86 @@
 	</section>
 
 	<!-- =========================================================================
-	     2. THE KIGA THESIS: WHY FOCUSED UTILITIES WIN
+	     2. THE ORGANIC SPIRAL FILAMENT PROCESS (RETAINED SPIRAL DESIGN)
 	     ========================================================================= -->
-	<section class="about-thesis-section">
-		<div class="site-container">
-			<div class="thesis-header-center">
-				<span class="section-pill-tag">✦ OUR THESIS</span>
-				<h2 class="section-headline">Why we refuse software bloat.</h2>
-				<p class="section-subtext">
-					We believe the best tools do not attempt to be everything to everyone. They solve one acute bottleneck so well that you never have to think about it again.
-				</p>
+	<section class="spiral-process-section" id="philosophy">
+		<div class="site-container process-container">
+			<!-- Header: process. with pop highlight -->
+			<div class="process-header">
+				<span class="process-dot"></span>
+				<h2 class="process-heading">process.</h2>
 			</div>
 
-			<div class="thesis-dual-grid">
-				<!-- Card 1: The Problem -->
-				<div class="thesis-card problem-card">
-					<div class="thesis-badge badge-problem">THE STATUS QUO</div>
-					<h3 class="thesis-title">Monolithic Software Bloat</h3>
-					<p class="thesis-body">
-						Every year, SaaS platforms pile on feature upon feature to justify ever-higher subscription tiers. Interfaces become labyrinthine, load times drag into seconds, and users spend more time managing software than doing meaningful work.
+			<!-- Section Subtitle -->
+			<p class="process-subtext">
+				From identifying everyday friction to shipping sub-50ms software. The winding path of purpose-built craft.
+			</p>
+
+			<!-- The Winding Organic Roadmap -->
+			<div class="winding-path-stage">
+				<!-- Continuous Decorative SVG Spiral Filament Curve -->
+				<svg
+					class="filament-svg-curve"
+					viewBox="0 0 800 1200"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+					aria-hidden="true"
+				>
+					<path
+						d="M400,20 C400,120 450,180 500,220 C560,260 580,320 540,360 C500,400 420,380 430,300 C440,240 380,360 300,440 C220,520 200,600 240,680 C280,760 480,820 520,900 C560,980 460,1060 400,1100 C340,1140 380,1200 460,1200"
+						stroke="#2563EB"
+						stroke-width="2.5"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					/>
+				</svg>
+
+				<!-- Node 01: Bottleneck Discovery (Left side) -->
+				<div class="path-node node-01">
+					<div class="node-bullet-row">
+						<span class="pop-bullet blue"></span>
+						<h3 class="node-title">discovery &amp; analysis</h3>
+					</div>
+					<p class="node-desc">
+						We dissect real-world workflows to pinpoint acute friction points—from recruiter email black holes to Indian market news chaos.
 					</p>
-					<ul class="thesis-points">
-						<li>Over-engineered multi-tier dashboards</li>
-						<li>Hidden paywalls and complex seat licensing</li>
-						<li>Feature bloat that creates cognitive friction</li>
-					</ul>
+					<span class="node-num-tag">01.</span>
 				</div>
 
-				<!-- Card 2: The Solution -->
-				<div class="thesis-card solution-card">
-					<div class="thesis-badge badge-solution">THE KIGA APPROACH</div>
-					<h3 class="thesis-title">Dedicated, Single-Purpose Tools</h3>
-					<p class="thesis-body">
-						We craft standalone utilities that address specific pain points with unmatched speed. You open the application, achieve your exact outcome in seconds, and get back to your life. No tutorials required.
+				<!-- Node 02: Radical De-Bloating (Middle / Center-Right) -->
+				<div class="path-node node-02">
+					<div class="node-bullet-row">
+						<span class="pop-bullet yellow"></span>
+						<h3 class="node-title">radical de-bloating</h3>
+					</div>
+					<p class="node-desc">
+						We strip away multi-tiered enterprise fluff, complex menus, and feature creep. One tool, one distinct purpose, zero cognitive clutter.
 					</p>
-					<ul class="thesis-points">
-						<li>Sub-50ms reactive interfaces built for speed</li>
-						<li>Direct outcomes: outreach delivered, markets mapped</li>
-						<li>Transparent, accessible utility with zero lock-in</li>
-					</ul>
+					<span class="node-num-tag">02.</span>
+				</div>
+
+				<!-- Node 03: Sub-50ms Engineering (Right side) -->
+				<div class="path-node node-03">
+					<div class="node-bullet-row">
+						<span class="pop-bullet coral"></span>
+						<h3 class="node-title">sub-50ms velocity</h3>
+					</div>
+					<p class="node-desc">
+						We engineer lightweight, distributed systems and clean interfaces optimized for sub-50ms execution and instant user outcomes.
+					</p>
+					<span class="node-num-tag">03.</span>
+				</div>
+
+				<!-- Node 04: Ground-Truth Testing (Bottom Center-Left) -->
+				<div class="path-node node-04">
+					<div class="node-bullet-row">
+						<span class="pop-bullet green"></span>
+						<h3 class="node-title">ground-truth testing</h3>
+					</div>
+					<p class="node-desc">
+						We run continuous testing and user feedback loops, refining deliverability and deterministic models until the friction is completely eliminated.
+					</p>
+					<span class="node-num-tag">04.</span>
 				</div>
 			</div>
 		</div>
@@ -187,56 +228,7 @@
 	</section>
 
 	<!-- =========================================================================
-	     4. CORE ENGINEERING & DESIGN PRINCIPLES
-	     ========================================================================= -->
-	<section class="about-principles-section" id="philosophy">
-		<div class="site-container">
-			<div class="thesis-header-center">
-				<span class="section-pill-tag">✦ HOW WE BUILD</span>
-				<h2 class="section-headline">Our engineering tenets.</h2>
-				<p class="section-subtext">
-					The four non-negotiable standards that govern every line of code and interface decision at Kiga.
-				</p>
-			</div>
-
-			<div class="principles-grid">
-				<div class="principle-card">
-					<span class="principle-num">01.</span>
-					<h3 class="principle-title">Single-Purpose Precision</h3>
-					<p class="principle-desc">
-						Every tool solves exactly one acute problem with deep thoroughness. If a proposed feature doesn’t accelerate the user’s core outcome, it doesn’t ship.
-					</p>
-				</div>
-
-				<div class="principle-card">
-					<span class="principle-num">02.</span>
-					<h3 class="principle-title">Sub-50ms Interaction Velocity</h3>
-					<p class="principle-desc">
-						We optimize serverless endpoints, database schemas, and client state machines so interactions respond instantaneously. We respect the user’s time above all.
-					</p>
-				</div>
-
-				<div class="principle-card">
-					<span class="principle-num">03.</span>
-					<h3 class="principle-title">Evidence &amp; Truth First</h3>
-					<p class="principle-desc">
-						Whether guaranteeing email inbox deliverability in Articlo or deterministic causal event studies in Ntocks, our tools provide verified data, never hallucinations.
-					</p>
-				</div>
-
-				<div class="principle-card">
-					<span class="principle-num">04.</span>
-					<h3 class="principle-title">Direct Utility Over Paywalls</h3>
-					<p class="principle-desc">
-						No coercive dark patterns, no fake timers, and no multi-step corporate signups. Just clean, open, and immediate access to the tools you need.
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- =========================================================================
-	     5. THE TEAM (FOUNDERS & BUILDERS)
+	     4. THE FOUNDERS & COLLECTIVE
 	     ========================================================================= -->
 	<section class="about-team-section" id="team">
 		<div class="site-container">
@@ -245,7 +237,7 @@
 	</section>
 
 	<!-- =========================================================================
-	     6. CLOSING CTA BANNER
+	     5. CLOSING CTA BANNER
 	     ========================================================================= -->
 	<section class="about-cta-section">
 		<div class="site-container">
@@ -435,13 +427,180 @@
 	}
 
 	/* =========================================================================
-	   THESIS DUAL SECTION
+	   SPIRAL / WINDING FILAMENT PROCESS SECTION
 	   ========================================================================= */
-	.about-thesis-section {
-		padding: 72px 20px;
+	.spiral-process-section {
+		padding: 80px 20px 110px;
+		position: relative;
+		border-top: 1px solid var(--border-light);
 		background: #F4F3EE;
-		border-top: 1px solid rgba(0, 0, 0, 0.06);
-		border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+	}
+
+	.process-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+	}
+
+	.process-header {
+		display: inline-flex;
+		align-items: center;
+		gap: 10px;
+		margin-bottom: 12px;
+		position: relative;
+		z-index: 5;
+	}
+
+	.process-dot {
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background-color: var(--pop-blue);
+		box-shadow: 0 0 10px rgba(37, 99, 235, 0.5);
+	}
+
+	.process-heading {
+		font-family: var(--font-serif-italic);
+		font-style: italic;
+		font-size: 2.6rem;
+		font-weight: 600;
+		color: var(--text-primary);
+		letter-spacing: -0.02em;
+	}
+
+	.process-subtext {
+		font-size: clamp(0.95rem, 1.6vw, 1.1rem);
+		color: var(--text-secondary);
+		text-align: center;
+		max-width: 600px;
+		margin: 0 auto 52px;
+		line-height: 1.6;
+	}
+
+	.winding-path-stage {
+		position: relative;
+		width: 100%;
+		max-width: 860px;
+		min-height: 1100px;
+		margin: 0 auto;
+	}
+
+	.filament-svg-curve {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+		z-index: 1;
+	}
+
+	.path-node {
+		position: absolute;
+		max-width: 320px;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		z-index: 3;
+		background: #FFFFFF;
+		padding: 24px 28px;
+		border-radius: var(--radius-lg);
+		border: 1.5px solid var(--border-light);
+		box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+		transition: transform var(--transition-fast), border-color var(--transition-fast);
+	}
+
+	.path-node:hover {
+		transform: translateY(-2px);
+		border-color: var(--text-primary);
+		box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
+	}
+
+	.node-bullet-row {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+
+	.pop-bullet {
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		flex-shrink: 0;
+	}
+
+	.pop-bullet.blue { background-color: var(--pop-blue); box-shadow: 0 0 8px rgba(37, 99, 235, 0.5); }
+	.pop-bullet.yellow { background-color: var(--pop-yellow); box-shadow: 0 0 8px rgba(245, 194, 43, 0.5); }
+	.pop-bullet.coral { background-color: var(--pop-coral); box-shadow: 0 0 8px rgba(255, 71, 36, 0.5); }
+	.pop-bullet.green { background-color: var(--pop-lime); box-shadow: 0 0 8px rgba(16, 185, 129, 0.5); }
+
+	.node-title {
+		font-family: var(--font-main);
+		font-size: 1.25rem;
+		font-weight: 800;
+		letter-spacing: -0.03em;
+		color: var(--text-primary);
+		text-transform: lowercase;
+	}
+
+	.node-desc {
+		font-size: 0.875rem;
+		line-height: 1.6;
+		color: var(--text-secondary);
+	}
+
+	.node-num-tag {
+		font-family: var(--font-serif-italic);
+		font-style: italic;
+		font-size: 1.15rem;
+		color: var(--pop-blue);
+		font-weight: 700;
+		margin-top: 4px;
+	}
+
+	.node-01 {
+		top: 160px;
+		left: 8%;
+	}
+
+	.node-02 {
+		top: 430px;
+		left: 48%;
+	}
+
+	.node-03 {
+		top: 700px;
+		right: 6%;
+		text-align: left;
+	}
+
+	.node-04 {
+		top: 940px;
+		left: 36%;
+	}
+
+	@media (max-width: 768px) {
+		.winding-path-stage {
+			display: flex;
+			flex-direction: column;
+			gap: 28px;
+			min-height: auto;
+		}
+		.filament-svg-curve {
+			display: none;
+		}
+		.path-node {
+			position: static;
+			max-width: 100%;
+		}
+	}
+
+	/* =========================================================================
+	   PORTFOLIO SHOWCASE SECTION
+	   ========================================================================= */
+	.about-portfolio-section {
+		padding: 80px 20px;
 	}
 
 	.thesis-header-center {
@@ -486,124 +645,6 @@
 		max-width: 640px;
 		margin: 14px auto 0;
 		font-weight: 500;
-	}
-
-	.thesis-dual-grid {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 28px;
-		max-width: 1080px;
-		margin: 0 auto;
-	}
-
-	@media (max-width: 820px) {
-		.thesis-dual-grid {
-			grid-template-columns: 1fr;
-		}
-	}
-
-	.thesis-card {
-		border-radius: var(--radius-xl);
-		padding: 36px 32px;
-		display: flex;
-		flex-direction: column;
-		gap: 16px;
-	}
-
-	.problem-card {
-		background: #FFFFFF;
-		border: 1.5px solid rgba(0, 0, 0, 0.1);
-	}
-
-	.solution-card {
-		background: #14171A;
-		color: #FFFFFF;
-		border: 1.5px solid #23272E;
-		box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
-	}
-
-	.thesis-badge {
-		font-size: 0.6875rem;
-		font-weight: 800;
-		letter-spacing: 0.08em;
-		padding: 4px 12px;
-		border-radius: var(--radius-pill);
-		align-self: flex-start;
-	}
-
-	.badge-problem {
-		background: rgba(239, 68, 68, 0.12);
-		color: #DC2626;
-	}
-
-	.badge-solution {
-		background: rgba(37, 99, 235, 0.2);
-		color: #60A5FA;
-	}
-
-	.thesis-title {
-		font-size: 1.5rem;
-		font-weight: 800;
-		letter-spacing: -0.02em;
-		line-height: 1.2;
-		margin: 0;
-	}
-
-	.solution-card .thesis-title {
-		color: #FFFFFF;
-	}
-
-	.thesis-body {
-		font-size: 0.96rem;
-		line-height: 1.65;
-		color: var(--text-secondary);
-	}
-
-	.solution-card .thesis-body {
-		color: #B5BAC1;
-	}
-
-	.thesis-points {
-		list-style: none;
-		margin-top: 8px;
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-	}
-
-	.thesis-points li {
-		font-size: 0.9rem;
-		display: flex;
-		align-items: center;
-		gap: 10px;
-		font-weight: 600;
-	}
-
-	.problem-card .thesis-points li {
-		color: #4A5568;
-	}
-
-	.problem-card .thesis-points li::before {
-		content: "✕";
-		color: #DC2626;
-		font-weight: 800;
-	}
-
-	.solution-card .thesis-points li {
-		color: #E2E8F0;
-	}
-
-	.solution-card .thesis-points li::before {
-		content: "✓";
-		color: #38BDF8;
-		font-weight: 800;
-	}
-
-	/* =========================================================================
-	   PORTFOLIO SHOWCASE SECTION
-	   ========================================================================= */
-	.about-portfolio-section {
-		padding: 80px 20px;
 	}
 
 	.portfolio-showcase-grid {
@@ -794,73 +835,11 @@
 	}
 
 	/* =========================================================================
-	   PRINCIPLES GRID
-	   ========================================================================= */
-	.about-principles-section {
-		padding: 80px 20px;
-		background: #FAF9F5;
-	}
-
-	.principles-grid {
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		gap: 20px;
-		max-width: 1120px;
-		margin: 0 auto;
-	}
-
-	@media (max-width: 900px) {
-		.principles-grid {
-			grid-template-columns: repeat(2, 1fr);
-		}
-	}
-
-	@media (max-width: 540px) {
-		.principles-grid {
-			grid-template-columns: 1fr;
-		}
-	}
-
-	.principle-card {
-		background: #FFFFFF;
-		border: 1.5px solid rgba(0, 0, 0, 0.08);
-		border-radius: var(--radius-lg);
-		padding: 30px 24px;
-		display: flex;
-		flex-direction: column;
-		box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
-	}
-
-	.principle-num {
-		font-family: var(--font-serif-italic);
-		font-size: 1.6rem;
-		font-style: italic;
-		font-weight: 700;
-		color: var(--pop-blue);
-		margin-bottom: 12px;
-	}
-
-	.principle-title {
-		font-size: 1.15rem;
-		font-weight: 800;
-		letter-spacing: -0.02em;
-		color: var(--text-primary);
-		margin: 0 0 10px;
-		line-height: 1.25;
-	}
-
-	.principle-desc {
-		font-size: 0.875rem;
-		line-height: 1.6;
-		color: var(--text-secondary);
-		margin: 0;
-	}
-
-	/* =========================================================================
 	   ABOUT TEAM & CTA
 	   ========================================================================= */
 	.about-team-section {
 		padding: 80px 20px 40px;
+		border-top: 1px solid var(--border-light);
 	}
 
 	.about-cta-section {
