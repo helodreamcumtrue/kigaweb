@@ -31,7 +31,7 @@
 					<li><a href="/" class="footer-link">home</a></li>
 					<li><a href="/about" class="footer-link">about us</a></li>
 					<li><a href="/#products" class="footer-link">products</a></li>
-					<li><a href="/about#philosophy" class="footer-link">process</a></li>
+					<li><a href="/about#philosophy" class="footer-link">principles</a></li>
 					<li><a href="/contact" class="footer-link">contact us</a></li>
 				</ul>
 			</div>

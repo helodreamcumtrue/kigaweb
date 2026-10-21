@@ -71,33 +71,34 @@
 
 				<!-- Emerging Product Cards fanning out of the envelope -->
 				<div class="envelope-cards-container">
-					<!-- Card 1 (Left - Articlo): Handwritten Letter Style -->
-					<a href="#project-articlo" class="emerging-letter-card card-articlo" title="View Articlo: Distraction-Free Publishing">
+					<!-- Card 1 (Left - Articlo): AI Career Outreach & ATS Resumes -->
+					<a href="#project-articlo" class="emerging-letter-card card-articlo" title="View Articlo: 1-Click HR Outreach & ATS Resume Templates">
 						<div class="letter-card-header">
-							<span class="card-title-text">Dear Writer,</span>
-							<span class="card-badge badge-coral">Articlo v2.4</span>
+							<span class="card-title-text">Dear Job Seeker,</span>
+							<span class="card-badge badge-coral">Articlo</span>
 						</div>
 						<p class="letter-card-script">
-							Here is a quiet, zero-lag canvas where words flow effortlessly. No sluggish menus, no bloated popups—just pure focus and thought.
+							Reach out to hundreds of HR in a click. Beat automated screening bots with ATS-free resume templates and get active recruiter mail IDs.
 						</p>
 						<div class="letter-card-footer">
-							<span class="mini-spec-pill">⚡ &lt; 50ms Editor</span>
-							<span class="mini-spec-pill muted">Markdown Native</span>
+							<span class="mini-spec-pill">⚡ 1-Click HR Outreach</span>
+							<span class="mini-spec-pill muted">Active HR Mails</span>
+							<span class="mini-spec-pill muted">ATS Templates</span>
 						</div>
 					</a>
 
-					<!-- Card 2 (Right - Bazinga): Clean Typed Modern Card Style -->
-					<a href="#project-bazinga" class="emerging-letter-card card-bazinga" title="View Bazinga: Realtime Team Sync">
+					<!-- Card 2 (Right - Ntocks): Indian Equities Causal Market Intelligence -->
+					<a href="#project-ntocks" class="emerging-letter-card card-ntocks" title="View Ntocks: Causal Market Intelligence for Indian Equities">
 						<div class="letter-card-header">
-							<span class="card-title-text">Dear Builder,</span>
-							<span class="card-badge badge-yellow">Bazinga</span>
+							<span class="card-title-text">Dear Investor,</span>
+							<span class="card-badge badge-yellow">Ntocks</span>
 						</div>
 						<p class="letter-card-typed">
-							Instant spatial coordination for high-velocity teams. Eliminate sync meetings and keep your engineering loop aligned in real time.
+							Something important just happened. Instantly see which NSE &amp; BSE companies are affected, why, and how much—with zero hallucinated predictions.
 						</p>
 						<div class="letter-card-footer">
-							<span class="mini-spec-pill yellow">● 18ms Latency</span>
-							<span class="mini-spec-pill muted">Live Nodes</span>
+							<span class="mini-spec-pill yellow">● NSE &amp; BSE Causal</span>
+							<span class="mini-spec-pill muted">Zero Hallucinations</span>
 						</div>
 					</a>
 				</div>
@@ -135,7 +136,7 @@
 	</section>
 
 	<!-- =========================================================================
-	     2. LAUNCHED PRODUCTS — ARTICLO & BAZINGA (FOLDER CARDS FROM IMAGE 1)
+	     2. LAUNCHED PRODUCTS — ARTICLO & NTOCKS
 	     ========================================================================= -->
 	<section class="home-products-section">
 		<div class="site-container">
@@ -463,13 +464,15 @@
 		z-index: 6;
 	}
 
-	/* Right Card: Bazinga */
+	/* Right Card: Ntocks */
+	.card-ntocks,
 	.card-bazinga {
 		left: 50%;
 		transform: translateX(-110px) rotate(4deg);
 		z-index: 4;
 	}
 
+	.card-ntocks:hover,
 	.card-bazinga:hover {
 		transform: translateX(-110px) translateY(-32px) rotate(1deg) scale(1.04);
 		box-shadow: 0 24px 50px rgba(45, 80, 125, 0.28);
@@ -626,6 +629,7 @@
 			transform: translateX(-140px) rotate(-4deg);
 		}
 
+		.card-ntocks,
 		.card-bazinga {
 			transform: translateX(-80px) rotate(3deg);
 		}
@@ -634,6 +638,7 @@
 			transform: translateX(-140px) translateY(-20px) rotate(-1deg);
 		}
 
+		.card-ntocks:hover,
 		.card-bazinga:hover {
 			transform: translateX(-80px) translateY(-20px) rotate(1deg);
 		}

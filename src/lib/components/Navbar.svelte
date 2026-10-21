@@ -53,13 +53,8 @@
 			</a>
 		</nav>
 
-		<!-- Right Action CTA -->
+		<!-- Mobile Burger Toggle Button (Shown on mobile only) -->
 		<div class="dock-action-wrap">
-			<a href="/contact" class="dock-cta-btn">
-				<span>Get in touch</span>
-			</a>
-
-			<!-- Mobile Burger Toggle Button -->
 			<button
 				type="button"
 				class="mobile-toggle-btn"
@@ -85,11 +80,6 @@
 				<li><a href="/about#team" class="mobile-link" onclick={closeMobileMenu}>Team</a></li>
 				<li><a href="/contact" class="mobile-link" onclick={closeMobileMenu}>Contact</a></li>
 			</ul>
-			<div class="mobile-cta-wrap">
-				<a href="/contact" class="mobile-cta-btn" onclick={closeMobileMenu}>
-					Get in touch &rarr;
-				</a>
-			</div>
 		</div>
 	{/if}
 </div>
@@ -212,28 +202,6 @@
 		flex-shrink: 0;
 	}
 
-	.dock-cta-btn {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 8px 20px;
-		border-radius: var(--radius-pill);
-		background: #121417;
-		color: #FFFFFF;
-		font-size: 0.8125rem;
-		font-weight: 700;
-		text-decoration: none;
-		letter-spacing: -0.01em;
-		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
-		transition: all var(--transition-fast);
-	}
-
-	.dock-cta-btn:hover {
-		background: var(--pop-blue);
-		transform: translateY(-1px);
-		box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
-	}
-
 	/* Mobile Toggle Button */
 	.mobile-toggle-btn {
 		display: none;
@@ -301,20 +269,8 @@
 		text-decoration: none;
 	}
 
-	.mobile-cta-btn {
-		display: block;
-		text-align: center;
-		padding: 12px;
-		background: #121417;
-		color: #FFFFFF;
-		font-weight: 700;
-		border-radius: var(--radius-pill);
-		text-decoration: none;
-	}
-
 	@media (max-width: 780px) {
-		.dock-nav-pill,
-		.dock-cta-btn {
+		.dock-nav-pill {
 			display: none;
 		}
 

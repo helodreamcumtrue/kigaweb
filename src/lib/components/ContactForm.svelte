@@ -200,8 +200,8 @@
 					<label for="contact-product" class="label-text">product of interest</label>
 					<select id="contact-product" class="select-input" bind:value={formData.product} disabled={isSubmitting}>
 						<option value="General">general / all solutions</option>
-						<option value="Articlo">articlo</option>
-						<option value="Bazinga">bazinga</option>
+						<option value="Articlo">articlo (hr outreach &amp; ats resumes)</option>
+						<option value="Ntocks">ntocks (nse &amp; bse causal intelligence)</option>
 						<option value="On the Horizon">on the horizon</option>
 						<option value="Other">other</option>
 					</select>

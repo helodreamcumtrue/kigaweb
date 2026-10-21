@@ -8,54 +8,54 @@ export const products = [
 	{
 		id: 'articlo',
 		name: 'Articlo',
-		tagline: 'From fragmented drafts to focused, published stories that reach readers.',
-		category: 'Digital Publishing & Content',
+		tagline: 'Reach out to hundreds of HR in a click with active mail IDs and ATS-free resume templates.',
+		category: 'AI Job Outreach & Career Acceleration',
 		status: 'Launched',
 		badge: 'Active Product',
 		projectNumber: '01',
 		tabLabel: 'PROJECT #1',
-		date: 'MAR 3, 2026',
+		date: 'MAR 2026',
 		theme: 'dark', // Charcoal folder card
-		url: '', // e.g. 'https://articlo.kiga.io'
+		url: 'https://github.com/helodreamcumtrue/artiapply',
 		previewImage: '/images/articlo-preview.jpg',
 		description:
-			'A dedicated digital solution purpose-built to address publishing and editorial workflow challenges. Developed under the Kiga product umbrella with an emphasis on speed, precision, and restrained utility.',
+			'An AI-powered job application and cold outreach platform built to eliminate job hunting fatigue. Reach out to hundreds of HRs in a single click via native Gmail API, beat screening filters with ATS-friendly resume templates, and access verified recruiter mail IDs with 99%+ deliverability.',
 		problem:
-			'Existing digital publishing workflows are over-engineered, slow, and loaded with clutter writers never use.',
-		audience: 'Writers, creators, and publishing teams seeking streamlined output.',
-		accentColor: '#2563EB', // Cobalt blue tab accent from reference
+			'Job seekers spend hundreds of hours manually searching for recruiter emails, getting ghosted, and failing robotic ATS parsers.',
+		audience: 'Job seekers, engineers, new grads, and professionals looking for direct recruiter access.',
+		accentColor: '#2563EB', // Cobalt blue tab accent
 		bgGradient: 'linear-gradient(135deg, #141619 0%, #1A1D23 100%)',
 		features: [
-			'Streamlined publishing interface designed for distraction-free output',
-			'Focused architecture addressing specific digital publishing bottlenecks',
-			'Engineered for high performance with minimal cognitive overhead'
+			'Reach out to hundreds of HR in a click with rate-limited, high-deliverability Gmail sending',
+			'Get ATS free resume templates engineered to beat automated screening parsers',
+			'Get active mail IDs of HR and hiring managers across top technology and enterprise firms'
 		],
 		featured: true
 	},
 	{
-		id: 'bazinga',
-		name: 'Bazinga',
-		tagline: 'Getting teams from everyday chaos to synchronized shipping without the panic.',
-		category: 'Interactive & Engagement Micro-Tool',
+		id: 'ntocks',
+		name: 'Ntocks',
+		tagline: 'Real-time financial intelligence & news-to-company causal impact platform for Indian equities (NSE & BSE).',
+		category: 'Quantitative Financial Intelligence',
 		status: 'Launched',
 		badge: 'Active Product',
 		projectNumber: '02',
 		tabLabel: 'PROJECT #2',
-		date: 'JAN 3, 2026',
+		date: 'FEB 2026',
 		theme: 'yellow', // Vibrant sunshine yellow folder card
-		url: '', // e.g. 'https://bazinga.kiga.io'
-		previewImage: '/images/bazinga-preview.jpg',
+		url: 'https://github.com/helodreamcumtrue/sttockk',
+		previewImage: '/images/ntocks-preview.jpg',
 		description:
-			'An independent product engineered to solve a distinct niche challenge. Designed with immediate utility and direct user delight at its core, as part of the unified Kiga product ecosystem.',
+			'An institutional-grade quantitative research platform for Indian equities. Transforms macroeconomic events, regulatory filings, and corporate disclosures into structured, evidence-backed market intelligence—with zero hallucinated predictions.',
 		problem:
-			'Niche engagement tasks are often forced into bulky, monolithic software packages that impede rather than empower workflows.',
-		audience: 'Engineers, product leads, and teams seeking quick, targeted execution.',
+			'Market participants react to sensationalist news and fake price targets without transparent causal mapping of which listed companies are actually affected and by how much.',
+		audience: 'Retail investors, quantitative analysts, traders, and equity researchers tracking Indian equities.',
 		accentColor: '#F5C22B', // Sunshine yellow accent
 		bgGradient: 'linear-gradient(135deg, #F5C22B 0%, #EAB308 100%)',
 		features: [
-			'Single-purpose architecture prioritizing speed and user focus',
-			'Intuitive interaction patterns tailored to niche user requirements',
-			'Seamless standalone utility requiring zero setup friction'
+			'5-stage deterministic causal impact engine mapping macro news to affected NSE & BSE tickers',
+			'Zero hallucinated predictions with strict verification and live data status tags [LIVE] and [DELAYED 15M]',
+			'Cumulative Abnormal Return (CAR) event study analytics preventing look-ahead bias'
 		],
 		featured: true
 	}

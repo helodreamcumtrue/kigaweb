@@ -14,7 +14,7 @@
 	<meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<div class="site-frame">
+<div class="site-wrapper">
 	<Navbar />
 	<main id="main-content" class="main-content">
 		{@render children()}

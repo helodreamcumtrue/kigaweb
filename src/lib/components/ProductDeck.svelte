@@ -24,21 +24,21 @@
 					<div class="topbar-left">
 						<span class="category-pill pill-{product.theme}">
 							{#if product.id === 'articlo'}
-								⚡ EDITORIAL ENGINE
+								⚡ CAREER ACCELERATION
 							{:else}
-								● REALTIME SYNC
+								● FINANCIAL INTELLIGENCE
 							{/if}
 						</span>
-						<span class="version-label">{product.name} v{idx === 0 ? '2.4' : '1.0'}</span>
+						<span class="version-label">{product.name} v{idx === 0 ? '2.0' : '1.0'}</span>
 					</div>
 
 					<div class="topbar-right">
 						{#if product.id === 'articlo'}
-							<span class="spec-metric-pill">⚡ &lt; 50ms Editor</span>
-							<span class="spec-metric-pill muted">Markdown Native</span>
+							<span class="spec-metric-pill">⚡ 1-Click HR Outreach</span>
+							<span class="spec-metric-pill muted">ATS Free Templates</span>
 						{:else}
-							<span class="spec-metric-pill yellow">● 18ms Latency</span>
-							<span class="spec-metric-pill muted">Zero Bloat</span>
+							<span class="spec-metric-pill yellow">● NSE &amp; BSE Causal Engine</span>
+							<span class="spec-metric-pill muted">Zero Hallucinations</span>
 						{/if}
 					</div>
 				</div>
@@ -84,7 +84,7 @@
 						<div class="product-actions-row">
 							{#if product.url}
 								<a href={product.url} target="_blank" rel="noopener noreferrer" class="btn-product-primary">
-									<span>Launch {product.name}</span>
+									<span>Explore {product.name} Repo</span>
 									<span class="btn-arrow-icon">↗</span>
 								</a>
 							{:else}
@@ -134,7 +134,11 @@
 								/>
 								<div class="mockup-floating-status">
 									<span class="pulse-dot"></span>
-									<span>Sub-50ms engine • 100% focused</span>
+									{#if product.id === 'articlo'}
+										<span>Gmail API • 99.2% Deliverability • Active HR DB</span>
+									{:else}
+										<span>NSE &amp; BSE Live Feeds • 5-Stage Causal Engine</span>
+									{/if}
 								</div>
 							</div>
 						</div>
