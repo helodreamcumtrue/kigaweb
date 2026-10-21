@@ -17,7 +17,7 @@ export const products = [
 		date: 'MAR 2026',
 		theme: 'dark', // Charcoal folder card
 		url: 'https://articlo.online',
-		previewImage: '/images/articlo-preview.jpg',
+		previewImage: '/images/articlo-preview.png',
 		description:
 			'An AI-powered job application and cold outreach platform built to eliminate job hunting fatigue. Reach out to hundreds of HRs in a single click via native Gmail API, beat screening filters with ATS-friendly resume templates, and access verified recruiter mail IDs with 99%+ deliverability.',
 		problem:
